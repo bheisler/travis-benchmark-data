@@ -1,0 +1,3 @@
+cd to data/cloud and run `python slice-data.py` to separate the cloud benchmark data from the logs.
+cd to data/ and run compare.sh to run cargo benchcmp on each pair of benchmarks
+run separate_percentages.sh to grep out the percentages

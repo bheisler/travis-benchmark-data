@@ -1,0 +1,878 @@
+travis_fold:start:worker_infoWorker information
+hostname: 301c21cf-74c6-4b7b-837c-ce39a8131271@1.i-0c81879-production-2-worker-org-ec2.travisci.net
+version: v3.4.0 https://github.com/travis-ci/worker/tree/ce0440bc30c289a49a9b0c21e4e1e6f7d7825101
+instance: abf554c travisci/ci-garnet:packer-1512502276-986baf0 (via amqp)
+startup: 570.27645ms
+travis_fold:end:worker_info[0Kmode of ‘/usr/local/clang-5.0.0/bin’ changed from 0777 (rwxrwxrwx) to 0775 (rwxrwxr-x)
+travis_fold:start:system_infoBuild system information
+Build language: rust
+Build group: stable
+Build dist: trusty
+Build id: 318635874
+Job id: 318635875
+Runtime kernel version: 4.9.6-040906-generic
+travis-build version: 94c867f18
+Build image provisioning date and time
+Tue Dec  5 20:11:19 UTC 2017
+Operating System Details
+Distributor ID:Ubuntu
+Description:Ubuntu 14.04.5 LTS
+Release:14.04
+Codename:trusty
+Cookbooks Version
+7c2c6a6 https://github.com/travis-ci/travis-cookbooks/tree/7c2c6a6
+git version
+git version 2.15.1
+bash version
+GNU bash, version 4.3.11(1)-release (x86_64-pc-linux-gnu)
+gcc version
+gcc (Ubuntu 4.8.4-2ubuntu1~14.04.3) 4.8.4
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+docker version
+Client:
+ Version:      17.09.0-ce
+ API version:  1.32
+ Go version:   go1.8.3
+ Git commit:   afdb6d4
+ Built:        Tue Sep 26 22:39:28 2017
+ OS/Arch:      linux/amd64
+clang version
+clang version 5.0.0 (tags/RELEASE_500/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/clang-5.0.0/bin
+jq version
+jq-1.5
+bats version
+Bats 0.4.0
+shellcheck version
+0.4.6
+shfmt version
+v2.0.0
+ccache version
+ccache version 3.1.9
+
+Copyright (C) 2002-2007 Andrew Tridgell
+Copyright (C) 2009-2011 Joel Rosdahl
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 3 of the License, or (at your option) any later
+version.
+cmake version
+cmake version 3.9.2
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+heroku version
+heroku-cli/6.14.39-addc925 (linux-x64) node-v9.2.0
+imagemagick version
+Version: ImageMagick 6.7.7-10 2017-07-31 Q16 http://www.imagemagick.org
+md5deep version
+4.2
+mercurial version
+Mercurial Distributed SCM (version 4.2.2)
+(see https://mercurial-scm.org for more information)
+
+Copyright (C) 2005-2017 Matt Mackall and others
+This is free software; see the source for copying conditions. There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+mysql version
+mysql  Ver 14.14 Distrib 5.6.33, for debian-linux-gnu (x86_64) using  EditLine wrapper
+openssl version
+OpenSSL 1.0.1f 6 Jan 2014
+packer version
+Packer v1.0.2
+
+Your version of Packer is out of date! The latest version
+is 1.1.2. You can update by downloading from www.packer.io
+postgresql client version
+psql (PostgreSQL) 9.6.6
+ragel version
+Ragel State Machine Compiler version 6.8 Feb 2013
+Copyright (c) 2001-2009 by Adrian Thurston
+subversion version
+svn, version 1.8.8 (r1568071)
+   compiled Aug 10 2017, 17:20:39 on x86_64-pc-linux-gnu
+
+Copyright (C) 2013 The Apache Software Foundation.
+This software consists of contributions made by many people;
+see the NOTICE file for more information.
+Subversion is open source software, see http://subversion.apache.org/
+
+The following repository access (RA) modules are available:
+
+* ra_svn : Module for accessing a repository using the svn network protocol.
+  - with Cyrus SASL authentication
+  - handles 'svn' scheme
+* ra_local : Module for accessing a repository on local disk.
+  - handles 'file' scheme
+* ra_serf : Module for accessing a repository via WebDAV protocol using serf.
+  - using serf 1.3.3
+  - handles 'http' scheme
+  - handles 'https' scheme
+
+sudo version
+Sudo version 1.8.9p5
+Configure options: --prefix=/usr -v --with-all-insults --with-pam --with-fqdn --with-logging=syslog --with-logfac=authpriv --with-env-editor --with-editor=/usr/bin/editor --with-timeout=15 --with-password-timeout=0 --with-passprompt=[sudo] password for %p:  --without-lecture --with-tty-tickets --disable-root-mailer --enable-admin-flag --with-sendmail=/usr/sbin/sendmail --with-timedir=/var/lib/sudo --mandir=/usr/share/man --libexecdir=/usr/lib/sudo --with-sssd --with-sssd-lib=/usr/lib/x86_64-linux-gnu --with-selinux
+Sudoers policy plugin version 1.8.9p5
+Sudoers file grammar version 43
+
+Sudoers path: /etc/sudoers
+Authentication methods: 'pam'
+Syslog facility if syslog is being used for logging: authpriv
+Syslog priority to use when user authenticates successfully: notice
+Syslog priority to use when user authenticates unsuccessfully: alert
+Send mail if the user is not in sudoers
+Use a separate timestamp for each user/tty combo
+Lecture user the first time they run sudo
+Root may run sudo
+Allow some information gathering to give useful error messages
+Require fully-qualified hostnames in the sudoers file
+Visudo will honor the EDITOR environment variable
+Set the LOGNAME and USER environment variables
+Length at which to wrap log file lines (0 for no wrap): 80
+Authentication timestamp timeout: 15.0 minutes
+Password prompt timeout: 0.0 minutes
+Number of tries to enter a password: 3
+Umask to use or 0777 to use user's: 022
+Path to mail program: /usr/sbin/sendmail
+Flags for mail program: -t
+Address to send mail to: root
+Subject line for mail messages: *** SECURITY information for %h ***
+Incorrect password message: Sorry, try again.
+Path to authentication timestamp dir: /var/lib/sudo
+Default password prompt: [sudo] password for %p: 
+Default user to run commands as: root
+Value to override user's $PATH with: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+Path to the editor for use by visudo: /usr/bin/editor
+When to require a password for 'list' pseudocommand: any
+When to require a password for 'verify' pseudocommand: all
+File descriptors >= 3 will be closed before executing a command
+Environment variables to check for sanity:
+TZ
+TERM
+LINGUAS
+LC_*
+LANGUAGE
+LANG
+COLORTERM
+Environment variables to remove:
+RUBYOPT
+RUBYLIB
+PYTHONUSERBASE
+PYTHONINSPECT
+PYTHONPATH
+PYTHONHOME
+TMPPREFIX
+ZDOTDIR
+READNULLCMD
+NULLCMD
+FPATH
+PERL5DB
+PERL5OPT
+PERL5LIB
+PERLLIB
+PERLIO_DEBUG 
+JAVA_TOOL_OPTIONS
+SHELLOPTS
+GLOBIGNORE
+PS4
+BASH_ENV
+ENV
+TERMCAP
+TERMPATH
+TERMINFO_DIRS
+TERMINFO
+_RLD*
+LD_*
+PATH_LOCALE
+NLSPATH
+HOSTALIASES
+RES_OPTIONS
+LOCALDOMAIN
+CDPATH
+IFS
+Environment variables to preserve:
+JAVA_HOME
+TRAVIS
+CI
+DEBIAN_FRONTEND
+XAUTHORIZATION
+XAUTHORITY
+PS2
+PS1
+PATH
+LS_COLORS
+KRB5CCNAME
+HOSTNAME
+HOME
+DISPLAY
+COLORS
+Locale to use while parsing sudoers: C
+Directory in which to store input/output logs: /var/log/sudo-io
+File in which to store the input/output log: %{seq}
+Add an entry to the utmp/utmpx file when allocating a pty
+PAM service name to use
+PAM service name to use for login shells
+Create a new PAM session for the command to run in
+Maximum I/O log sequence number: 0
+
+Local IP address and netmask pairs:
+172.17.0.2/255.255.0.0
+
+Sudoers I/O plugin version 1.8.9p5
+gzip version
+gzip 1.6
+Copyright (C) 2007, 2010, 2011 Free Software Foundation, Inc.
+Copyright (C) 1993 Jean-loup Gailly.
+This is free software.  You may redistribute copies of it under the terms of
+the GNU General Public License <http://www.gnu.org/licenses/gpl.html>.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Jean-loup Gailly.
+zip version
+Copyright (c) 1990-2008 Info-ZIP - Type 'zip "-L"' for software license.
+This is Zip 3.0 (July 5th 2008), by Info-ZIP.
+Currently maintained by E. Gordon.  Please send bug reports to
+the authors using the web page at www.info-zip.org; see README for details.
+
+Latest sources and executables are at ftp://ftp.info-zip.org/pub/infozip,
+as of above date; see http://www.info-zip.org/ for other sites.
+
+Compiled with gcc 4.8.2 for Unix (Linux ELF) on Oct 21 2013.
+
+Zip special compilation options:
+USE_EF_UT_TIME       (store Universal Time)
+BZIP2_SUPPORT        (bzip2 library version 1.0.6, 6-Sept-2010)
+    bzip2 code and library copyright (c) Julian R Seward
+    (See the bzip2 license for terms of use)
+SYMLINK_SUPPORT      (symbolic links supported)
+LARGE_FILE_SUPPORT   (can read and write large files on file system)
+ZIP64_SUPPORT        (use Zip64 to store large files in archives)
+UNICODE_SUPPORT      (store and read UTF-8 Unicode paths)
+STORE_UNIX_UIDs_GIDs (store UID/GID sizes/values using new extra field)
+UIDGID_NOT_16BIT     (old Unix 16-bit UID/GID extra field not used)
+[encryption, version 2.91 of 05 Jan 2007] (modified for Zip 3)
+
+Encryption notice:
+The encryption code of this program is not copyrighted and is
+put in the public domain.  It was originally written in Europe
+and, to the best of our knowledge, can be freely distributed
+in both source and object forms from any country, including
+the USA under License Exception TSU of the U.S. Export
+Administration Regulations (section 740.13(e)) of 6 June 2002.
+
+Zip environment options:
+             ZIP:  [none]
+          ZIPOPT:  [none]
+vim version
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:43:18)
+Included patches: 1-52
+Extra patches: 8.0.0056
+Modified by pkg-vim-maintainers@lists.alioth.debian.org
+Compiled by buildd@
+Huge version without GUI.  Features included (+) or not (-):
++acl             +farsi           +mouse_netterm   +syntax
++arabic          +file_in_path    +mouse_sgr       +tag_binary
++autocmd         +find_in_path    -mouse_sysmouse  +tag_old_static
+-balloon_eval    +float           +mouse_urxvt     -tag_any_white
+-browse          +folding         +mouse_xterm     -tcl
+++builtin_terms  -footer          +multi_byte      +terminfo
++byte_offset     +fork()          +multi_lang      +termresponse
++cindent         +gettext         -mzscheme        +textobjects
+-clientserver    -hangul_input    +netbeans_intg   +title
+-clipboard       +iconv           +path_extra      -toolbar
++cmdline_compl   +insert_expand   -perl            +user_commands
++cmdline_hist    +jumplist        +persistent_undo +vertsplit
++cmdline_info    +keymap          +postscript      +virtualedit
++comments        +langmap         +printer         +visual
++conceal         +libcall         +profile         +visualextra
++cryptv          +linebreak       +python          +viminfo
++cscope          +lispindent      -python3         +vreplace
++cursorbind      +listcmds        +quickfix        +wildignore
++cursorshape     +localmap        +reltime         +wildmenu
++dialog_con      -lua             +rightleft       +windows
++diff            +menu            -ruby            +writebackup
++digraphs        +mksession       +scrollbind      -X11
+-dnd             +modify_fname    +signs           -xfontset
+-ebcdic          +mouse           +smartindent     -xim
++emacs_tags      -mouseshape      -sniff           -xsmp
++eval            +mouse_dec       +startuptime     -xterm_clipboard
++ex_extra        +mouse_gpm       +statusline      -xterm_save
++extra_search    -mouse_jsbterm   -sun_workshop    -xpm
+   system vimrc file: "$VIM/vimrc"
+     user vimrc file: "$HOME/.vimrc"
+ 2nd user vimrc file: "~/.vim/vimrc"
+      user exrc file: "$HOME/.exrc"
+  fall-back for $VIM: "/usr/share/vim"
+Compilation: gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1      
+Linking: gcc   -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,--as-needed -o vim        -lm -ltinfo -lnsl  -lselinux  -lacl -lattr -lgpm -ldl    -L/usr/lib/python2.7/config-x86_64-linux-gnu -lpython2.7 -lpthread -ldl -lutil -lm -Xlinker -export-dynamic -Wl,-O1 -Wl,-Bsymbolic-functions      
+iptables version
+iptables v1.4.21
+curl version
+curl 7.35.0 (x86_64-pc-linux-gnu) libcurl/7.35.0 OpenSSL/1.0.1f zlib/1.2.8 libidn/1.28 librtmp/2.3
+wget version
+GNU Wget 1.15 built on linux-gnu.
+rsync version
+rsync  version 3.1.0  protocol version 31
+gimme version
+v1.2.0
+nvm version
+0.33.6
+perlbrew version
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.80
+phpenv version
+rbenv 1.1.1-25-g6aa70b6
+rvm version
+rvm 1.29.3 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+default ruby version
+ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
+CouchDB version
+couchdb 1.6.1
+ElasticSearch version
+5.5.0
+Installed Firefox version
+firefox 56.0.2
+MongoDB version
+MongoDB 3.4.10
+PhantomJS version
+2.1.1
+Pre-installed PostgreSQL versions
+9.2.24
+9.3.20
+9.4.15
+9.5.10
+9.6.6
+RabbitMQ Version
+3.6.14
+Redis version
+redis-server 4.0.6
+riak version
+2.2.3
+Pre-installed Go versions
+1.7.4
+ant version
+Apache Ant(TM) version 1.9.3 compiled on April 8 2014
+mvn version
+Apache Maven 3.5.2 (138edd61fd100ec658bfa2d307c43b76940a5d7d; 2017-10-18T07:58:13Z)
+Maven home: /usr/local/maven-3.5.2
+Java version: 1.8.0_151, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-8-oracle/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.4.0-101-generic", arch: "amd64", family: "unix"
+gradle version
+
+------------------------------------------------------------
+Gradle 4.0.1
+------------------------------------------------------------
+
+Build time:   2017-07-07 14:02:41 UTC
+Revision:     38e5dc0f772daecca1d2681885d3d85414eb6826
+
+Groovy:       2.4.11
+Ant:          Apache Ant(TM) version 1.9.6 compiled on June 29 2015
+JVM:          1.8.0_151 (Oracle Corporation 25.151-b12)
+OS:           Linux 4.4.0-101-generic amd64
+
+lein version
+Leiningen 2.8.1 on Java 1.8.0_151 Java HotSpot(TM) 64-Bit Server VM
+Pre-installed Node.js versions
+v4.8.6
+v6.12.0
+v6.12.1
+v8.9
+v8.9.1
+phpenv versions
+  system
+  5.6
+* 5.6.32 (set by /home/travis/.phpenv/version)
+  7.0
+  7.0.25
+  7.1
+  7.1.11
+  hhvm
+  hhvm-stable
+composer --version
+Composer version 1.5.2 2017-09-11 16:59:25
+Pre-installed Ruby versions
+ruby-2.2.7
+ruby-2.3.4
+ruby-2.4.1
+travis_fold:end:system_infooved ‘/etc/apt/sources.list.d/basho_riak.list’
+Executing: /tmp/tmp.0WbWGfsJ9F/gpg.1.sh --keyserver
+hkp://keyserver.ubuntu.com:80
+--recv
+EA312927
+gpg: requesting key EA312927 from hkp server keyserver.ubuntu.com
+gpg: key EA312927: public key "MongoDB 3.2 Release Signing Key <packaging@mongodb.com>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+W: http://ppa.launchpad.net/couchdb/stable/ubuntu/dists/trusty/Release.gpg: Signature by key 15866BAFD9BCC4F3C1E0DFC7D69548E1C17EAB57 uses weak digest algorithm (SHA1)
+127.0.0.1localhost
+::1 ip6-localhost ip6-loopback
+fe00::0ip6-localnet
+ff00::0ip6-mcastprefix
+ff02::1ip6-allnodes
+ff02::2ip6-allrouters
+172.17.0.4travis-job-bheisler-regex-318635875.travisci.net travis-job-bheisler-regex-318635875
+travis_fold:start:git.checkoute:start:014930a7aster https://github.com/bheisler/regex.git bheisler/regex
+Cloning into 'bheisler/regex'...
+remote: Counting objects: 893, done.ote: Compressing objects:   0% (1/430)   ote: Compressing objects:   1% (5/430)   ote: Compressing objects:   2% (9/430)   ote: Compressing objects:   3% (13/430)   ote: Compressing objects:   4% (18/430)   ote: Compressing objects:   5% (22/430)   ote: Compressing objects:   6% (26/430)   ote: Compressing objects:   7% (31/430)   ote: Compressing objects:   8% (35/430)   ote: Compressing objects:   9% (39/430)   ote: Compressing objects:  10% (43/430)   ote: Compressing objects:  11% (48/430)   ote: Compressing objects:  12% (52/430)   ote: Compressing objects:  13% (56/430)   ote: Compressing objects:  14% (61/430)   ote: Compressing objects:  15% (65/430)   ote: Compressing objects:  16% (69/430)   ote: Compressing objects:  17% (74/430)   ote: Compressing objects:  18% (78/430)   ote: Compressing objects:  19% (82/430)   ote: Compressing objects:  20% (86/430)   ote: Compressing objects:  21% (91/430)   ote: Compressing objects:  22% (95/430)   ote: Compressing objects:  23% (99/430)   ote: Compressing objects:  24% (104/430)   ote: Compressing objects:  25% (108/430)   ote: Compressing objects:  26% (112/430)   ote: Compressing objects:  27% (117/430)   ote: Compressing objects:  28% (121/430)   ote: Compressing objects:  29% (125/430)   ote: Compressing objects:  30% (129/430)   ote: Compressing objects:  31% (134/430)   ote: Compressing objects:  32% (138/430)   ote: Compressing objects:  33% (142/430)   ote: Compressing objects:  34% (147/430)   ote: Compressing objects:  35% (151/430)   ote: Compressing objects:  36% (155/430)   ote: Compressing objects:  37% (160/430)   ote: Compressing objects:  38% (164/430)   ote: Compressing objects:  39% (168/430)   ote: Compressing objects:  40% (172/430)   ote: Compressing objects:  41% (177/430)   ote: Compressing objects:  42% (181/430)   ote: Compressing objects:  43% (185/430)   ote: Compressing objects:  44% (190/430)   ote: Compressing objects:  45% (194/430)   ote: Compressing objects:  46% (198/430)   ote: Compressing objects:  47% (203/430)   ote: Compressing objects:  48% (207/430)   ote: Compressing objects:  49% (211/430)   ote: Compressing objects:  50% (215/430)   ote: Compressing objects:  51% (220/430)   ote: Compressing objects:  52% (224/430)   ote: Compressing objects:  53% (228/430)   ote: Compressing objects:  54% (233/430)   ote: Compressing objects:  55% (237/430)   ote: Compressing objects:  56% (241/430)   ote: Compressing objects:  57% (246/430)   ote: Compressing objects:  58% (250/430)   ote: Compressing objects:  59% (254/430)   ote: Compressing objects:  60% (258/430)   ote: Compressing objects:  61% (263/430)   [Kremote: Compressing objects:  62% (267/430)   ote: Compressing objects:  63% (271/430)   ote: Compressing objects:  64% (276/430)   ote: Compressing objects:  65% (280/430)   ote: Compressing objects:  66% (284/430)   ote: Compressing objects:  67% (289/430)   ote: Compressing objects:  68% (293/430)   ote: Compressing objects:  69% (297/430)   ote: Compressing objects:  70% (301/430)   ote: Compressing objects:  71% (306/430)   ote: Compressing objects:  72% (310/430)   ote: Compressing objects:  73% (314/430)   ote: Compressing objects:  74% (319/430)   ote: Compressing objects:  75% (323/430)   ote: Compressing objects:  76% (327/430)   ote: Compressing objects:  77% (332/430)   ote: Compressing objects:  78% (336/430)   ote: Compressing objects:  79% (340/430)   ote: Compressing objects:  80% (344/430)   ote: Compressing objects:  81% (349/430)   ote: Compressing objects:  82% (353/430)   ote: Compressing objects:  83% (357/430)   ote: Compressing objects:  84% (362/430)   ote: Compressing objects:  85% (366/430)   ote: Compressing objects:  86% (370/430)   ote: Compressing objects:  87% (375/430)   ote: Compressing objects:  88% (379/430)   ote: Compressing objects:  89% (383/430)   ote: Compressing objects:  90% (387/430)   ote: Compressing objects:  91% (392/430)   ote: Compressing objects:  92% (396/430)   ote: Compressing objects:  93% (400/430)   ote: Compressing objects:  94% (405/430)   [Kremote: Compressing objects:  95% (409/430)   ote: Compressing objects:  96% (413/430)   ote: Compressing objects:  97% (418/430)   ote: Compressing objects:  98% (422/430)   ote: Compressing objects:  99% (426/430)   ote: Compressing objects: 100% (430/430)   ote: Compressing objects: 100% (430/430), done.[K
+Receiving objects:   0% (1/893)   Receiving objects:   1% (9/893)   Receiving objects:   2% (18/893)   Receiving objects:   3% (27/893)   Receiving objects:   4% (36/893)   Receiving objects:   5% (45/893)   Receiving objects:   6% (54/893)   Receiving objects:   7% (63/893)   Receiving objects:   8% (72/893)   Receiving objects:   9% (81/893)   Receiving objects:  10% (90/893)   Receiving objects:  11% (99/893)   Receiving objects:  12% (108/893)   Receiving objects:  13% (117/893)   Receiving objects:  14% (126/893)   Receiving objects:  15% (134/893)   Receiving objects:  16% (143/893)   Receiving objects:  17% (152/893)   Receiving objects:  18% (161/893)   Receiving objects:  19% (170/893)   Receiving objects:  20% (179/893)   Receiving objects:  21% (188/893)   Receiving objects:  22% (197/893)   Receiving objects:  23% (206/893)   Receiving objects:  24% (215/893)   Receiving objects:  25% (224/893)   Receiving objects:  26% (233/893)   Receiving objects:  27% (242/893)   Receiving objects:  28% (251/893)   Receiving objects:  29% (259/893)   Receiving objects:  30% (268/893)   Receiving objects:  31% (277/893)   Receiving objects:  32% (286/893)   Receiving objects:  33% (295/893)   Receiving objects:  34% (304/893)   Receiving objects:  35% (313/893)   Receiving objects:  36% (322/893)   Receiving objects:  37% (331/893)   Receiving objects:  38% (340/893)   Receiving objects:  39% (349/893)   Receiving objects:  40% (358/893)   Receiving objects:  41% (367/893)   Receiving objects:  42% (376/893)   Receiving objects:  43% (384/893)   Receiving objects:  44% (393/893)   Receiving objects:  45% (402/893)   Receiving objects:  46% (411/893)   Receiving objects:  47% (420/893)   Receiving objects:  48% (429/893)   Receiving objects:  49% (438/893)   Receiving objects:  50% (447/893)   Receiving objects:  51% (456/893)   Receiving objects:  52% (465/893)   Receiving objects:  53% (474/893)   Receiving objects:  54% (483/893)   Receiving objects:  55% (492/893)   Receiving objects:  56% (501/893)   Receiving objects:  57% (510/893)   Receiving objects:  58% (518/893)   Receiving objects:  59% (527/893)   Receiving objects:  60% (536/893)   Receiving objects:  61% (545/893)   Receiving objects:  62% (554/893)   Receiving objects:  63% (563/893)   Receiving objects:  64% (572/893)   Receiving objects:  65% (581/893)   Receiving objects:  66% (590/893)   Receiving objects:  67% (599/893)   Receiving objects:  68% (608/893)   Receiving objects:  69% (617/893)   Receiving objects:  70% (626/893)   Receiving objects:  71% (635/893)   Receiving objects:  72% (643/893)   Receiving objects:  73% (652/893)   Receiving objects:  74% (661/893)   Receiving objects:  75% (670/893)   Receiving objects:  76% (679/893)   Receiving objects:  77% (688/893)   Receiving objects:  78% (697/893)   Receiving objects:  79% (706/893)   Receiving objects:  80% (715/893)   Receiving objects:  81% (724/893)   Receiving objects:  82% (733/893)   Receiving objects:  83% (742/893)   Receiving objects:  84% (751/893)   Receiving objects:  85% (760/893)   Receiving objects:  86% (768/893)   Receiving objects:  87% (777/893)   Receiving objects:  88% (786/893)   Receiving objects:  89% (795/893)   Receiving objects:  90% (804/893)   Receiving objects:  91% (813/893)   Receiving objects:  92% (822/893)   Receiving objects:  93% (831/893)   Receiving objects:  94% (840/893)   Receiving objects:  95% (849/893)   Receiving objects:  96% (858/893)   remote: Total 893 (delta 551), reused 721 (delta 449), pack-reused 0[K
+Receiving objects:  97% (867/893)   Receiving objects:  98% (876/893)   Receiving objects:  99% (885/893)   Receiving objects: 100% (893/893)   Receiving objects: 100% (893/893), 2.90 MiB | 10.39 MiB/s, done.
+Resolving deltas:   0% (0/551)   Resolving deltas:   1% (6/551)   Resolving deltas:   2% (12/551)   Resolving deltas:   8% (48/551)   Resolving deltas:   9% (50/551)   Resolving deltas:  11% (65/551)   Resolving deltas:  12% (70/551)   Resolving deltas:  13% (74/551)   Resolving deltas:  14% (78/551)   Resolving deltas:  22% (123/551)   Resolving deltas:  32% (181/551)   Resolving deltas:  33% (184/551)   Resolving deltas:  37% (205/551)   Resolving deltas:  41% (226/551)   Resolving deltas:  42% (232/551)   Resolving deltas:  43% (237/551)   Resolving deltas:  45% (248/551)   Resolving deltas:  47% (262/551)   Resolving deltas:  48% (265/551)   Resolving deltas:  49% (270/551)   Resolving deltas:  50% (281/551)   Resolving deltas:  51% (286/551)   Resolving deltas:  52% (290/551)   Resolving deltas:  54% (299/551)   Resolving deltas:  55% (304/551)   Resolving deltas:  56% (311/551)   Resolving deltas:  57% (316/551)   Resolving deltas:  58% (321/551)   Resolving deltas:  59% (327/551)   Resolving deltas:  60% (332/551)   Resolving deltas:  61% (337/551)   Resolving deltas:  62% (342/551)   Resolving deltas:  63% (348/551)   Resolving deltas:  64% (357/551)   Resolving deltas:  65% (359/551)   Resolving deltas:  66% (365/551)   Resolving deltas:  67% (373/551)   Resolving deltas:  68% (380/551)   Resolving deltas:  69% (384/551)   Resolving deltas:  70% (386/551)   Resolving deltas:  71% (392/551)   Resolving deltas:  74% (411/551)   Resolving deltas:  75% (415/551)   Resolving deltas:  77% (425/551)   Resolving deltas:  80% (445/551)   Resolving deltas:  81% (447/551)   Resolving deltas:  82% (454/551)   Resolving deltas:  83% (458/551)   Resolving deltas:  84% (467/551)   Resolving deltas:  85% (472/551)   Resolving deltas:  86% (477/551)   Resolving deltas:  87% (482/551)   Resolving deltas:  88% (485/551)   Resolving deltas:  89% (492/551)   Resolving deltas:  90% (497/551)   Resolving deltas:  94% (519/551)   Resolving deltas:  95% (524/551)   Resolving deltas:  96% (532/551)   Resolving deltas:  97% (535/551)   Resolving deltas: 100% (551/551)   Resolving deltas: 100% (551/551), done.
+
+travis_time:end:014930a7:start=1513692479325177663,finish=1513692480288414351,duration=963236688[0K$ cd bheisler/regex
+$ git checkout -qf cc4572a4a8c62e76e13e507c957cf670c57ea4ed
+travis_fold:end:git.checkoutInstalling APT Packages (BETA)
+$ export DEBIAN_FRONTEND=noninteractive
+travis_time:start:023d45a8[0K$ sudo -E apt-get -yq update &>> ~/apt-get-update.log
+
+travis_time:end:023d45a8:start=1513692480386885021,finish=1513692485498474941,duration=5111589920e:start:08865ceemends --force-yes install libcurl4-openssl-dev libelf-dev libdw-dev binutils-dev wget clang-3.6 cmake python python-virtualenv
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python is already the newest version (2.7.5-5ubuntu3).
+wget is already the newest version (1.15-1ubuntu1.14.04.3).
+The following additional packages will be installed:
+  cmake-data libarchive13 libclang-common-3.6-dev libclang1-3.6 libdw1
+  libllvm3.6 libnettle4 libobjc-4.8-dev libobjc4 python-setuptools
+Suggested packages:
+  gnustep gnustep-devel clang-3.6-doc codeblocks eclipse lrzip libcurl4-doc
+  libcurl3-dbg
+Recommended packages:
+  llvm-3.6-dev python-pip
+The following packages will be REMOVED:
+  libcurl4-gnutls-dev
+The following NEW packages will be installed:
+  binutils-dev clang-3.6 cmake cmake-data libarchive13 libclang-common-3.6-dev
+  libclang1-3.6 libcurl4-openssl-dev libdw-dev libdw1 libelf-dev libllvm3.6
+  libnettle4 libobjc-4.8-dev libobjc4 python-setuptools python-virtualenv
+0 upgraded, 17 newly installed, 1 to remove and 14 not upgraded.
+Need to get 45.1 MB of archives.
+After this operation, 187 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu trusty-updates/main amd64 libnettle4 amd64 2.7.1-1ubuntu0.2 [102 kB]
+Get:2 http://archive.ubuntu.com/ubuntu trusty-updates/main amd64 libarchive13 amd64 3.1.2-7ubuntu2.4 [262 kB]
+Get:3 http://archive.ubuntu.com/ubuntu trusty-updates/main amd64 libllvm3.6 amd64 1:3.6-2ubuntu1~trusty1 [7,858 kB]
+Get:4 http://archive.ubuntu.com/ubuntu trusty-updates/main amd64 libobjc4 amd64 4.8.4-2ubuntu1~14.04.3 [111 kB]
+Get:5 http://archive.ubuntu.com/ubuntu trusty-updates/main amd64 libobjc-4.8-dev amd64 4.8.4-2ubuntu1~14.04.3 [378 kB]
+Get:6 http://archive.ubuntu.com/ubuntu trusty-updates/main amd64 libclang1-3.6 amd64 1:3.6-2ubuntu1~trusty1 [3,645 kB]
+Get:7 http://archive.ubuntu.com/ubuntu trusty-updates/main amd64 libdw1 amd64 0.158-0ubuntu5.2 [174 kB]
+Get:8 http://archive.ubuntu.com/ubuntu trusty-updates/main amd64 libclang-common-3.6-dev amd64 1:3.6-2ubuntu1~trusty1 [700 kB]
+Get:9 http://archive.ubuntu.com/ubuntu trusty-updates/universe amd64 clang-3.6 amd64 1:3.6-2ubuntu1~trusty1 [24.5 MB]
+Get:10 http://archive.ubuntu.com/ubuntu trusty/main amd64 cmake-data all 2.8.12.2-0ubuntu3 [676 kB]
+Get:11 http://archive.ubuntu.com/ubuntu trusty/main amd64 cmake amd64 2.8.12.2-0ubuntu3 [2,618 kB]
+Get:12 http://archive.ubuntu.com/ubuntu trusty-updates/main amd64 libcurl4-openssl-dev amd64 7.35.0-1ubuntu2.13 [245 kB]
+Get:13 http://archive.ubuntu.com/ubuntu trusty-updates/main amd64 libelf-dev amd64 0.158-0ubuntu5.2 [47.3 kB]
+Get:14 http://archive.ubuntu.com/ubuntu trusty-updates/main amd64 libdw-dev amd64 0.158-0ubuntu5.2 [135 kB]
+Get:15 http://archive.ubuntu.com/ubuntu trusty-updates/main amd64 python-setuptools all 3.3-1ubuntu2 [230 kB]
+Get:16 http://archive.ubuntu.com/ubuntu trusty-updates/universe amd64 python-virtualenv all 1.11.4-1ubuntu1 [1,485 kB]
+Get:17 http://archive.ubuntu.com/ubuntu trusty-updates/main amd64 binutils-dev amd64 2.24-5ubuntu14.2 [1,969 kB]
+Fetched 45.1 MB in 3s (12.3 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 72205 files and directories currently installed.)
+Removing libcurl4-gnutls-dev:amd64 (7.35.0-1ubuntu2.13) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Selecting previously unselected package libnettle4:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 72181 files and directories currently installed.)
+Preparing to unpack .../libnettle4_2.7.1-1ubuntu0.2_amd64.deb ...
+Unpacking libnettle4:amd64 (2.7.1-1ubuntu0.2) ...
+Selecting previously unselected package libarchive13:amd64.
+Preparing to unpack .../libarchive13_3.1.2-7ubuntu2.4_amd64.deb ...
+Unpacking libarchive13:amd64 (3.1.2-7ubuntu2.4) ...
+Selecting previously unselected package libllvm3.6:amd64.
+Preparing to unpack .../libllvm3.6_1%3a3.6-2ubuntu1~trusty1_amd64.deb ...
+Unpacking libllvm3.6:amd64 (1:3.6-2ubuntu1~trusty1) ...
+Selecting previously unselected package libobjc4:amd64.
+Preparing to unpack .../libobjc4_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking libobjc4:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package libobjc-4.8-dev:amd64.
+Preparing to unpack .../libobjc-4.8-dev_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking libobjc-4.8-dev:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package libclang1-3.6:amd64.
+Preparing to unpack .../libclang1-3.6_1%3a3.6-2ubuntu1~trusty1_amd64.deb ...
+Unpacking libclang1-3.6:amd64 (1:3.6-2ubuntu1~trusty1) ...
+Selecting previously unselected package libdw1:amd64.
+Preparing to unpack .../libdw1_0.158-0ubuntu5.2_amd64.deb ...
+Unpacking libdw1:amd64 (0.158-0ubuntu5.2) ...
+Selecting previously unselected package libclang-common-3.6-dev.
+Preparing to unpack .../libclang-common-3.6-dev_1%3a3.6-2ubuntu1~trusty1_amd64.deb ...
+Unpacking libclang-common-3.6-dev (1:3.6-2ubuntu1~trusty1) ...
+Selecting previously unselected package clang-3.6.
+Preparing to unpack .../clang-3.6_1%3a3.6-2ubuntu1~trusty1_amd64.deb ...
+Unpacking clang-3.6 (1:3.6-2ubuntu1~trusty1) ...
+Selecting previously unselected package cmake-data.
+Preparing to unpack .../cmake-data_2.8.12.2-0ubuntu3_all.deb ...
+ERROR: cmake-data is broken - called emacs-package-install as a new-style add-on, but has no compat file.
+Unpacking cmake-data (2.8.12.2-0ubuntu3) ...
+Selecting previously unselected package cmake.
+Preparing to unpack .../cmake_2.8.12.2-0ubuntu3_amd64.deb ...
+Unpacking cmake (2.8.12.2-0ubuntu3) ...
+Selecting previously unselected package libcurl4-openssl-dev:amd64.
+Preparing to unpack .../libcurl4-openssl-dev_7.35.0-1ubuntu2.13_amd64.deb ...
+Unpacking libcurl4-openssl-dev:amd64 (7.35.0-1ubuntu2.13) ...
+Selecting previously unselected package libelf-dev:amd64.
+Preparing to unpack .../libelf-dev_0.158-0ubuntu5.2_amd64.deb ...
+Unpacking libelf-dev:amd64 (0.158-0ubuntu5.2) ...
+Selecting previously unselected package libdw-dev:amd64.
+Preparing to unpack .../libdw-dev_0.158-0ubuntu5.2_amd64.deb ...
+Unpacking libdw-dev:amd64 (0.158-0ubuntu5.2) ...
+Selecting previously unselected package python-setuptools.
+Preparing to unpack .../python-setuptools_3.3-1ubuntu2_all.deb ...
+Unpacking python-setuptools (3.3-1ubuntu2) ...
+Selecting previously unselected package python-virtualenv.
+Preparing to unpack .../python-virtualenv_1.11.4-1ubuntu1_all.deb ...
+Unpacking python-virtualenv (1.11.4-1ubuntu1) ...
+Selecting previously unselected package binutils-dev.
+Preparing to unpack .../binutils-dev_2.24-5ubuntu14.2_amd64.deb ...
+Unpacking binutils-dev (2.24-5ubuntu14.2) ...
+Processing triggers for ccache (3.1.9-1) ...
+Updating symlinks in /usr/lib/ccache ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up libnettle4:amd64 (2.7.1-1ubuntu0.2) ...
+Setting up libarchive13:amd64 (3.1.2-7ubuntu2.4) ...
+Setting up libllvm3.6:amd64 (1:3.6-2ubuntu1~trusty1) ...
+Setting up libobjc4:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up libobjc-4.8-dev:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up libclang1-3.6:amd64 (1:3.6-2ubuntu1~trusty1) ...
+Setting up libdw1:amd64 (0.158-0ubuntu5.2) ...
+Setting up libclang-common-3.6-dev (1:3.6-2ubuntu1~trusty1) ...
+Setting up clang-3.6 (1:3.6-2ubuntu1~trusty1) ...
+Setting up cmake-data (2.8.12.2-0ubuntu3) ...
+Install cmake-data for emacs23
+install/cmake-data: Byte-compiling for emacs23
+Wrote /usr/share/emacs23/site-lisp/cmake-data/cmake-mode.elc
+Install cmake-data for emacs24
+install/cmake-data: Byte-compiling for emacs24
+Wrote /usr/share/emacs24/site-lisp/cmake-data/cmake-mode.elc
+Setting up cmake (2.8.12.2-0ubuntu3) ...
+Setting up libcurl4-openssl-dev:amd64 (7.35.0-1ubuntu2.13) ...
+Setting up libelf-dev:amd64 (0.158-0ubuntu5.2) ...
+Setting up libdw-dev:amd64 (0.158-0ubuntu5.2) ...
+Setting up python-setuptools (3.3-1ubuntu2) ...
+Setting up python-virtualenv (1.11.4-1ubuntu1) ...
+Setting up binutils-dev (2.24-5ubuntu14.2) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.13) ...
+W: --force-yes is deprecated, use one of the options starting with --allow instead.
+
+travis_time:end:08865cee:start=1513692485504928331,finish=1513692504151357014,duration=18646428683[0Ktravis_fold:end:apt[0Ktravis_fold:start:rustup-installInstalling Rust
+travis_time:start:11ce4136info: downloading installer
+info: syncing channel updates for 'nightly-x86_64-unknown-linux-gnu'
+info: latest update on 2017-12-18, rust version 1.24.0-nightly (dc39c3169 2017-12-17)
+info: downloading component 'rustc'
+info: downloading component 'rust-std'
+info: downloading component 'cargo'
+info: downloading component 'rust-docs'
+info: installing component 'rustc'
+info: installing component 'rust-std'
+info: installing component 'cargo'
+info: installing component 'rust-docs'
+info: default toolchain set to 'nightly'
+
+  nightly installed - rustc 1.24.0-nightly (dc39c3169 2017-12-17)
+
+
+travis_time:end:11ce4136:start=1513692509227331607,finish=1513692526668748765,duration=17441417158[0K$ export PATH=$HOME/.cargo/bin:$PATH
+travis_fold:end:rustup-install[0K$ rustc --version
+rustc 1.24.0-nightly (dc39c3169 2017-12-17)
+$ rustup --version
+rustup 1.7.0 (813f7b7a8 2017-10-30)
+$ cargo --version
+cargo 0.25.0-nightly (930f9d949 2017-12-05)
+
+travis_time:start:3f06f97apiling
+    Updating registry `https://github.com/rust-lang/crates.io-index`
+ Downloading memmap v0.2.3
+ Downloading rustc-serialize v0.3.24
+ Downloading libc v0.2.34
+ Downloading lazy_static v0.1.16
+ Downloading docopt v0.6.86
+ Downloading utf8-ranges v1.0.0
+ Downloading thread_local v0.3.5
+ Downloading memchr v2.0.1
+ Downloading simd v0.1.1
+ Downloading aho-corasick v0.6.4
+ Downloading unreachable v1.0.0
+ Downloading lazy_static v1.0.0
+ Downloading void v1.0.2
+ Downloading kernel32-sys v0.2.2
+ Downloading winapi v0.2.8
+ Downloading fs2 v0.2.5
+ Downloading winapi-build v0.1.1
+ Downloading regex v0.1.80
+ Downloading lazy_static v0.2.11
+ Downloading strsim v0.5.2
+ Downloading thread_local v0.2.7
+ Downloading utf8-ranges v0.1.3
+ Downloading memchr v0.1.11
+ Downloading regex-syntax v0.3.9
+ Downloading aho-corasick v0.5.3
+ Downloading thread-id v2.0.0
+ Downloading pkg-config v0.3.9
+ Downloading gcc v0.3.54
+   Compiling lazy_static v1.0.0
+   Compiling strsim v0.5.2
+   Compiling simd v0.1.1
+   Compiling winapi-build v0.1.1
+   Compiling regex-syntax v0.4.1 (file:///home/travis/build/bheisler/regex/regex-syntax)
+   Compiling winapi v0.2.8
+   Compiling pkg-config v0.3.9
+   Compiling lazy_static v0.1.16
+   Compiling gcc v0.3.54
+   Compiling utf8-ranges v1.0.0
+   Compiling utf8-ranges v0.1.3
+   Compiling libc v0.2.34
+   Compiling lazy_static v0.2.11
+   Compiling void v1.0.2
+   Compiling rustc-serialize v0.3.24
+   Compiling regex-syntax v0.3.9
+   Compiling kernel32-sys v0.2.2
+   Compiling regex-benchmark v0.1.0 (file:///home/travis/build/bheisler/regex/bench)
+warning: use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+  --> build.rs:44:9
+   |
+44 |         gcc::Config::new()
+   |         ^^^^^^^^^^^^^^^^
+   |
+   = note: #[warn(deprecated)] on by default
+
+   Compiling memchr v0.1.11
+   Compiling memchr v2.0.1
+   Compiling unreachable v1.0.0
+   Compiling aho-corasick v0.5.3
+   Compiling thread_local v0.3.5
+   Compiling aho-corasick v0.6.4
+   Compiling thread-id v2.0.0
+   Compiling fs2 v0.2.5
+   Compiling thread_local v0.2.7
+   Compiling memmap v0.2.3
+   Compiling regex v0.2.3 (file:///home/travis/build/bheisler/regex)
+   Compiling regex v0.1.80
+   Compiling docopt v0.6.86
+    Finished release [optimized + debuginfo] target(s) in 96.44 secs
+Measurement A:
+   Compiling regex-benchmark v0.1.0 (file:///home/travis/build/bheisler/regex/bench)
+warning: use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+  --> build.rs:44:9
+   |
+44 |         gcc::Config::new()
+   |         ^^^^^^^^^^^^^^^^
+   |
+   = note: #[warn(deprecated)] on by default
+
+    Finished release [optimized + debuginfo] target(s) in 24.25 secs
+     Running target/release/deps/bench-183cb07697ddb1c5
+
+running 98 tests
+test misc::anchored_literal_long_match       ... bench:          38 ns/iter (+/- 28) = 10263 MB/s
+test misc::anchored_literal_long_non_match   ... bench:          39 ns/iter (+/- 8) = 10000 MB/s
+test misc::anchored_literal_short_match      ... bench:          37 ns/iter (+/- 32) = 702 MB/s
+test misc::anchored_literal_short_non_match  ... bench:          39 ns/iter (+/- 19) = 666 MB/s
+test misc::easy0_1K                          ... bench:          30 ns/iter (+/- 10) = 35033 MB/s
+test misc::easy0_1MB                         ... bench:          35 ns/iter (+/- 0) = 29960085 MB/s
+test misc::easy0_32                          ... bench:          29 ns/iter (+/- 0) = 2034 MB/s
+test misc::easy0_32K                         ... bench:          29 ns/iter (+/- 0) = 1130862 MB/s
+test misc::easy1_1K                          ... bench:          71 ns/iter (+/- 1) = 14704 MB/s
+test misc::easy1_1MB                         ... bench:          73 ns/iter (+/- 1) = 14364328 MB/s
+test misc::easy1_32                          ... bench:          78 ns/iter (+/- 1) = 666 MB/s
+test misc::easy1_32K                         ... bench:          72 ns/iter (+/- 28) = 455388 MB/s
+test misc::hard_1K                           ... bench:          87 ns/iter (+/- 4) = 12080 MB/s
+test misc::hard_1MB                          ... bench:          90 ns/iter (+/- 3) = 11651144 MB/s
+test misc::hard_32                           ... bench:          88 ns/iter (+/- 3) = 670 MB/s
+test misc::hard_32K                          ... bench:          87 ns/iter (+/- 3) = 376954 MB/s
+test misc::literal                           ... bench:          28 ns/iter (+/- 1) = 1821 MB/s
+test misc::long_needle1                      ... bench:       2,913 ns/iter (+/- 135) = 34329 MB/s
+test misc::long_needle2                      ... bench:     835,892 ns/iter (+/- 19,312) = 119 MB/s
+test misc::match_class                       ... bench:         110 ns/iter (+/- 9) = 736 MB/s
+test misc::match_class_in_range              ... bench:          45 ns/iter (+/- 2) = 1800 MB/s
+test misc::match_class_unicode               ... bench:         400 ns/iter (+/- 15) = 402 MB/s
+test misc::medium_1K                         ... bench:          30 ns/iter (+/- 0) = 35066 MB/s
+test misc::medium_1MB                        ... bench:          36 ns/iter (+/- 1) = 29127888 MB/s
+test misc::medium_32                         ... bench:          31 ns/iter (+/- 2) = 1935 MB/s
+test misc::medium_32K                        ... bench:          30 ns/iter (+/- 1) = 1093200 MB/s
+test misc::no_exponential                    ... bench:         530 ns/iter (+/- 16) = 188 MB/s
+test misc::not_literal                       ... bench:         152 ns/iter (+/- 50) = 335 MB/s
+test misc::one_pass_long_prefix              ... bench:          92 ns/iter (+/- 3) = 282 MB/s
+test misc::one_pass_long_prefix_not          ... bench:          92 ns/iter (+/- 8) = 282 MB/s
+test misc::one_pass_short                    ... bench:          79 ns/iter (+/- 36) = 215 MB/s
+test misc::one_pass_short_not                ... bench:          74 ns/iter (+/- 10) = 229 MB/s
+test misc::reallyhard2_1K                    ... bench:         117 ns/iter (+/- 52) = 8888 MB/s
+test misc::reallyhard_1K                     ... bench:       2,442 ns/iter (+/- 277) = 430 MB/s
+test misc::reallyhard_1MB                    ... bench:   2,435,010 ns/iter (+/- 67,783) = 430 MB/s
+test misc::reallyhard_32                     ... bench:         169 ns/iter (+/- 59) = 349 MB/s
+test misc::reallyhard_32K                    ... bench:      74,895 ns/iter (+/- 4,986) = 437 MB/s
+test misc::replace_all                       ... bench:         261 ns/iter (+/- 246)
+test misc::reverse_suffix_no_quadratic       ... bench:       8,019 ns/iter (+/- 3,592) = 997 MB/s
+test regexdna::find_new_lines                ... bench:  23,076,040 ns/iter (+/- 4,998,487) = 220 MB/s
+test regexdna::subst1                        ... bench:   1,200,846 ns/iter (+/- 34,206) = 4233 MB/s
+test regexdna::subst10                       ... bench:   1,248,679 ns/iter (+/- 527,950) = 4071 MB/s
+test regexdna::subst11                       ... bench:   1,215,525 ns/iter (+/- 309,152) = 4182 MB/s
+test regexdna::subst2                        ... bench:   1,359,529 ns/iter (+/- 495,338) = 3739 MB/s
+test regexdna::subst3                        ... bench:   1,717,254 ns/iter (+/- 45,256) = 2960 MB/s
+test regexdna::subst4                        ... bench:   1,235,397 ns/iter (+/- 641,234) = 4114 MB/s
+test regexdna::subst5                        ... bench:   1,240,069 ns/iter (+/- 412,076) = 4099 MB/s
+test regexdna::subst6                        ... bench:   1,196,201 ns/iter (+/- 48,198) = 4249 MB/s
+test regexdna::subst7                        ... bench:   1,191,087 ns/iter (+/- 15,279) = 4267 MB/s
+test regexdna::subst8                        ... bench:   1,197,534 ns/iter (+/- 30,019) = 4244 MB/s
+test regexdna::subst9                        ... bench:   1,204,533 ns/iter (+/- 327,972) = 4220 MB/s
+test regexdna::variant1                      ... bench:   4,736,995 ns/iter (+/- 462,270) = 1073 MB/s
+test regexdna::variant2                      ... bench:   8,156,230 ns/iter (+/- 865,089) = 623 MB/s
+test regexdna::variant3                      ... bench:   9,633,304 ns/iter (+/- 3,865,742) = 527 MB/s
+test regexdna::variant4                      ... bench:   9,853,825 ns/iter (+/- 3,886,687) = 515 MB/s
+test regexdna::variant5                      ... bench:  11,472,028 ns/iter (+/- 292,315) = 443 MB/s
+test regexdna::variant6                      ... bench:   8,876,225 ns/iter (+/- 3,171,428) = 572 MB/s
+test regexdna::variant7                      ... bench:   8,170,690 ns/iter (+/- 771,423) = 622 MB/s
+test regexdna::variant8                      ... bench:   8,564,627 ns/iter (+/- 1,208,084) = 593 MB/s
+test regexdna::variant9                      ... bench:   8,139,893 ns/iter (+/- 161,907) = 624 MB/s
+test sherlock::before_after_holmes           ... bench:   1,375,532 ns/iter (+/- 14,526) = 432 MB/s
+test sherlock::before_holmes                 ... bench:     105,816 ns/iter (+/- 2,767) = 5622 MB/s
+test sherlock::everything_greedy             ... bench:   3,335,121 ns/iter (+/- 37,480) = 178 MB/s
+test sherlock::everything_greedy_nl          ... bench:   1,179,162 ns/iter (+/- 30,751) = 504 MB/s
+test sherlock::holmes_cochar_watson          ... bench:     203,868 ns/iter (+/- 11,351) = 2918 MB/s
+test sherlock::holmes_coword_watson          ... bench:     741,694 ns/iter (+/- 16,089) = 802 MB/s
+test sherlock::ing_suffix                    ... bench:     628,606 ns/iter (+/- 12,244) = 946 MB/s
+test sherlock::ing_suffix_limited_space      ... bench:   1,625,127 ns/iter (+/- 14,344) = 366 MB/s
+test sherlock::letters                       ... bench:  37,035,990 ns/iter (+/- 4,717,807) = 16 MB/s
+test sherlock::letters_lower                 ... bench:  39,943,247 ns/iter (+/- 11,092,130) = 14 MB/s
+test sherlock::letters_upper                 ... bench:   2,780,446 ns/iter (+/- 26,076) = 213 MB/s
+test sherlock::line_boundary_sherlock_holmes ... bench:   1,360,878 ns/iter (+/- 38,827) = 437 MB/s
+test sherlock::name_alt1                     ... bench:      46,407 ns/iter (+/- 2,658) = 12819 MB/s
+test sherlock::name_alt2                     ... bench:     171,075 ns/iter (+/- 7,615) = 3477 MB/s
+test sherlock::name_alt3                     ... bench:     187,861 ns/iter (+/- 8,373) = 3166 MB/s
+test sherlock::name_alt3_nocase              ... bench:   1,572,609 ns/iter (+/- 52,260) = 378 MB/s
+test sherlock::name_alt4                     ... bench:     228,233 ns/iter (+/- 12,876) = 2606 MB/s
+test sherlock::name_alt4_nocase              ... bench:     333,915 ns/iter (+/- 22,118) = 1781 MB/s
+test sherlock::name_alt5                     ... bench:     177,448 ns/iter (+/- 7,436) = 3352 MB/s
+test sherlock::name_alt5_nocase              ... bench:     920,862 ns/iter (+/- 43,857) = 646 MB/s
+test sherlock::name_holmes                   ... bench:      56,100 ns/iter (+/- 1,359) = 10604 MB/s
+test sherlock::name_holmes_nocase            ... bench:     271,444 ns/iter (+/- 24,822) = 2191 MB/s
+test sherlock::name_sherlock                 ... bench:      88,197 ns/iter (+/- 6,345) = 6745 MB/s
+test sherlock::name_sherlock_holmes          ... bench:      43,694 ns/iter (+/- 3,414) = 13615 MB/s
+test sherlock::name_sherlock_holmes_nocase   ... bench:     243,668 ns/iter (+/- 32,342) = 2441 MB/s
+test sherlock::name_sherlock_nocase          ... bench:     239,481 ns/iter (+/- 25,287) = 2484 MB/s
+test sherlock::name_whitespace               ... bench:     105,306 ns/iter (+/- 12,927) = 5649 MB/s
+test sherlock::no_match_common               ... bench:      29,204 ns/iter (+/- 4,156) = 20371 MB/s
+test sherlock::no_match_really_common        ... bench:     467,329 ns/iter (+/- 45,081) = 1273 MB/s
+test sherlock::no_match_uncommon             ... bench:      29,118 ns/iter (+/- 3,506) = 20431 MB/s
+test sherlock::quotes                        ... bench:     701,597 ns/iter (+/- 65,797) = 847 MB/s
+test sherlock::repeated_class_negation       ... bench: 126,862,444 ns/iter (+/- 23,116,654) = 4 MB/s
+test sherlock::the_lower                     ... bench:   1,068,953 ns/iter (+/- 22,159) = 556 MB/s
+test sherlock::the_nocase                    ... bench:     956,288 ns/iter (+/- 313,732) = 622 MB/s
+test sherlock::the_upper                     ... bench:      62,292 ns/iter (+/- 8,918) = 9550 MB/s
+test sherlock::the_whitespace                ... bench:   1,770,022 ns/iter (+/- 426,727) = 336 MB/s
+test sherlock::word_ending_n                 ... bench:   2,734,881 ns/iter (+/- 496,331) = 217 MB/s
+test sherlock::words                         ... bench:  13,656,904 ns/iter (+/- 93,531) = 43 MB/s
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 98 measured; 0 filtered out
+
+Measurement B:
+    Finished release [optimized + debuginfo] target(s) in 0.0 secs
+     Running target/release/deps/bench-183cb07697ddb1c5
+
+running 98 tests
+test misc::anchored_literal_long_match       ... bench:          40 ns/iter (+/- 4) = 9750 MB/s
+test misc::anchored_literal_long_non_match   ... bench:          39 ns/iter (+/- 8) = 10000 MB/s
+test misc::anchored_literal_short_match      ... bench:          36 ns/iter (+/- 4) = 722 MB/s
+test misc::anchored_literal_short_non_match  ... bench:          39 ns/iter (+/- 0) = 666 MB/s
+test misc::easy0_1K                          ... bench:          30 ns/iter (+/- 0) = 35033 MB/s
+test misc::easy0_1MB                         ... bench:          35 ns/iter (+/- 0) = 29960085 MB/s
+test misc::easy0_32                          ... bench:          29 ns/iter (+/- 0) = 2034 MB/s
+test misc::easy0_32K                         ... bench:          30 ns/iter (+/- 0) = 1093166 MB/s
+test misc::easy1_1K                          ... bench:          72 ns/iter (+/- 1) = 14500 MB/s
+test misc::easy1_1MB                         ... bench:          75 ns/iter (+/- 6) = 13981280 MB/s
+test misc::easy1_32                          ... bench:          72 ns/iter (+/- 3) = 722 MB/s
+test misc::easy1_32K                         ... bench:          74 ns/iter (+/- 5) = 443081 MB/s
+test misc::hard_1K                           ... bench:          88 ns/iter (+/- 2) = 11943 MB/s
+test misc::hard_1MB                          ... bench:          90 ns/iter (+/- 4) = 11651144 MB/s
+test misc::hard_32                           ... bench:          95 ns/iter (+/- 3) = 621 MB/s
+test misc::hard_32K                          ... bench:          88 ns/iter (+/- 4) = 372670 MB/s
+test misc::literal                           ... bench:          27 ns/iter (+/- 1) = 1888 MB/s
+test misc::long_needle1                      ... bench:       2,926 ns/iter (+/- 75) = 34176 MB/s
+test misc::long_needle2                      ... bench:     831,530 ns/iter (+/- 8,421) = 120 MB/s
+test misc::match_class                       ... bench:         110 ns/iter (+/- 2) = 736 MB/s
+test misc::match_class_in_range              ... bench:          44 ns/iter (+/- 1) = 1840 MB/s
+test misc::match_class_unicode               ... bench:         400 ns/iter (+/- 10) = 402 MB/s
+test misc::medium_1K                         ... bench:          30 ns/iter (+/- 0) = 35066 MB/s
+test misc::medium_1MB                        ... bench:          36 ns/iter (+/- 0) = 29127888 MB/s
+test misc::medium_32                         ... bench:          30 ns/iter (+/- 1) = 2000 MB/s
+test misc::medium_32K                        ... bench:          30 ns/iter (+/- 0) = 1093200 MB/s
+test misc::no_exponential                    ... bench:         527 ns/iter (+/- 11) = 189 MB/s
+test misc::not_literal                       ... bench:         151 ns/iter (+/- 3) = 337 MB/s
+test misc::one_pass_long_prefix              ... bench:          92 ns/iter (+/- 2) = 282 MB/s
+test misc::one_pass_long_prefix_not          ... bench:          93 ns/iter (+/- 8) = 279 MB/s
+test misc::one_pass_short                    ... bench:          75 ns/iter (+/- 30) = 226 MB/s
+test misc::one_pass_short_not                ... bench:          74 ns/iter (+/- 14) = 229 MB/s
+test misc::reallyhard2_1K                    ... bench:         114 ns/iter (+/- 124) = 9122 MB/s
+test misc::reallyhard_1K                     ... bench:       2,456 ns/iter (+/- 170) = 427 MB/s
+test misc::reallyhard_1MB                    ... bench:   2,402,975 ns/iter (+/- 52,911) = 436 MB/s
+test misc::reallyhard_32                     ... bench:         168 ns/iter (+/- 2) = 351 MB/s
+test misc::reallyhard_32K                    ... bench:      74,903 ns/iter (+/- 1,303) = 437 MB/s
+test misc::replace_all                       ... bench:         264 ns/iter (+/- 5)
+test misc::reverse_suffix_no_quadratic       ... bench:       7,979 ns/iter (+/- 2,021) = 1002 MB/s
+test regexdna::find_new_lines                ... bench:  22,974,631 ns/iter (+/- 3,747,901) = 221 MB/s
+test regexdna::subst1                        ... bench:   1,196,539 ns/iter (+/- 196,768) = 4248 MB/s
+test regexdna::subst10                       ... bench:   1,190,414 ns/iter (+/- 9,476) = 4270 MB/s
+test regexdna::subst11                       ... bench:   1,197,431 ns/iter (+/- 29,446) = 4245 MB/s
+test regexdna::subst2                        ... bench:   1,235,895 ns/iter (+/- 60,530) = 4113 MB/s
+test regexdna::subst3                        ... bench:   1,205,114 ns/iter (+/- 226,353) = 4218 MB/s
+test regexdna::subst4                        ... bench:   1,282,563 ns/iter (+/- 408,928) = 3963 MB/s
+test regexdna::subst5                        ... bench:   1,274,408 ns/iter (+/- 319,832) = 3988 MB/s
+test regexdna::subst6                        ... bench:   1,202,742 ns/iter (+/- 328,142) = 4226 MB/s
+test regexdna::subst7                        ... bench:   1,197,737 ns/iter (+/- 13,844) = 4244 MB/s
+test regexdna::subst8                        ... bench:   1,193,136 ns/iter (+/- 16,286) = 4260 MB/s
+test regexdna::subst9                        ... bench:   1,204,581 ns/iter (+/- 17,689) = 4220 MB/s
+test regexdna::variant1                      ... bench:   5,983,952 ns/iter (+/- 2,365,978) = 849 MB/s
+test regexdna::variant2                      ... bench:  11,456,231 ns/iter (+/- 3,270,979) = 443 MB/s
+test regexdna::variant3                      ... bench:  13,608,730 ns/iter (+/- 428,274) = 373 MB/s
+test regexdna::variant4                      ... bench:   9,954,300 ns/iter (+/- 4,208,953) = 510 MB/s
+test regexdna::variant5                      ... bench:  11,242,440 ns/iter (+/- 406,478) = 452 MB/s
+test regexdna::variant6                      ... bench:  10,697,576 ns/iter (+/- 3,170,790) = 475 MB/s
+test regexdna::variant7                      ... bench:   8,947,924 ns/iter (+/- 3,178,175) = 568 MB/s
+test regexdna::variant8                      ... bench:  11,191,565 ns/iter (+/- 3,201,271) = 454 MB/s
+test regexdna::variant9                      ... bench:  11,244,999 ns/iter (+/- 3,313,065) = 452 MB/s
+test sherlock::before_after_holmes           ... bench:   1,455,442 ns/iter (+/- 20,261) = 408 MB/s
+test sherlock::before_holmes                 ... bench:     157,588 ns/iter (+/- 6,824) = 3775 MB/s
+test sherlock::everything_greedy             ... bench:   5,867,616 ns/iter (+/- 383,495) = 101 MB/s
+test sherlock::everything_greedy_nl          ... bench:   2,039,692 ns/iter (+/- 283,653) = 291 MB/s
+test sherlock::holmes_cochar_watson          ... bench:     308,474 ns/iter (+/- 21,876) = 1928 MB/s
+test sherlock::holmes_coword_watson          ... bench:     894,615 ns/iter (+/- 33,161) = 665 MB/s
+test sherlock::ing_suffix                    ... bench:     918,828 ns/iter (+/- 63,949) = 647 MB/s
+test sherlock::ing_suffix_limited_space      ... bench:   1,862,554 ns/iter (+/- 264,436) = 319 MB/s
+test sherlock::letters                       ... bench:  65,378,353 ns/iter (+/- 33,987,733) = 9 MB/s
+test sherlock::letters_upper                 ... bench:   3,727,893 ns/iter (+/- 102,902) = 159 MB/s
+test sherlock::line_boundary_sherlock_holmes ... bench:   1,408,738 ns/iter (+/- 17,350) = 422 MB/s
+test sherlock::name_alt1                     ... bench:      67,353 ns/iter (+/- 1,069) = 8833 MB/s
+test sherlock::name_alt2                     ... bench:     267,726 ns/iter (+/- 19,216) = 2222 MB/s
+test sherlock::name_alt3                     ... bench:     286,520 ns/iter (+/- 17,846) = 2076 MB/s
+test sherlock::name_alt3_nocase              ... bench:   1,783,117 ns/iter (+/- 36,701) = 333 MB/s
+test sherlock::name_alt4                     ... bench:     369,213 ns/iter (+/- 164,289) = 1611 MB/s
+test sherlock::name_alt4_nocase              ... bench:     535,172 ns/iter (+/- 203,105) = 1111 MB/s
+test sherlock::name_alt5                     ... bench:     272,592 ns/iter (+/- 12,816) = 2182 MB/s
+test sherlock::name_alt5_nocase              ... bench:   1,311,572 ns/iter (+/- 41,467) = 453 MB/s
+test sherlock::name_holmes                   ... bench:      83,363 ns/iter (+/- 5,840) = 7136 MB/s
+test sherlock::name_holmes_nocase            ... bench:     438,557 ns/iter (+/- 23,583) = 1356 MB/s
+test sherlock::name_sherlock                 ... bench:     120,447 ns/iter (+/- 2,656) = 4939 MB/s
+test sherlock::name_sherlock_holmes          ... bench:      63,023 ns/iter (+/- 4,404) = 9439 MB/s
+test sherlock::name_sherlock_holmes_nocase   ... bench:     377,761 ns/iter (+/- 155,318) = 1574 MB/s
+test sherlock::name_sherlock_nocase          ... bench:     388,805 ns/iter (+/- 15,410) = 1530 MB/s
+test sherlock::name_whitespace               ... bench:     152,271 ns/iter (+/- 22,230) = 3907 MB/s
+test sherlock::no_match_common               ... bench:      41,131 ns/iter (+/- 13,004) = 14464 MB/s
+test sherlock::no_match_really_common        ... bench:     591,013 ns/iter (+/- 12,326) = 1006 MB/s
+test sherlock::no_match_uncommon             ... bench:      41,125 ns/iter (+/- 15,028) = 14466 MB/s
+test sherlock::quotes                        ... bench:     930,754 ns/iter (+/- 38,322) = 639 MB/s
+test sherlock::repeated_class_negation       ... bench: 194,250,326 ns/iter (+/- 55,882,054) = 3 MB/s
+test sherlock::the_lower                     ... bench:   1,023,057 ns/iter (+/- 22,981) = 581 MB/s
+test sherlock::the_nocase                    ... bench:     906,942 ns/iter (+/- 21,812) = 655 MB/s
+test sherlock::the_upper                     ... bench:      90,334 ns/iter (+/- 2,088) = 6585 MB/s
+test sherlock::the_whitespace                ... bench:   2,336,653 ns/iter (+/- 113,060) = 254 MB/s
+test sherlock::word_ending_n                 ... bench:   2,646,879 ns/iter (+/- 67,916) = 224 MB/s
+test sherlock::words                         ... bench:  13,671,715 ns/iter (+/- 1,793,272) = 43 MB/s
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 98 measured; 0 filtered out
+
+
+travis_time:end:3f06f97a:start=1513692526823043934,finish=1513693140880770442,duration=614057726508The command "ci/script.sh" exited with 0.
+
+Done. Your build exited with 0.
