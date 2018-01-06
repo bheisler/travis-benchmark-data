@@ -1,6 +1,7 @@
 #!python
 
 import numpy
+import scipy
 import matplotlib
 matplotlib.use('Agg')
 from matplotlib import pyplot
@@ -41,6 +42,8 @@ print "Count: %d" % len(cloud_percentages)
 print "mean: %s" % cloud_percentages.mean()
 print "min: %s, max: %s" % (cloud_percentages.min(), cloud_percentages.max())
 print "std. dev.: %s" % cloud_percentages.std()
+
+print "Levene's Test p-value: %.2E" % (scipy.stats.levene(local_percentages, cloud_percentages, center="mean").pvalue,)
 
 generate_histogram(local_percentages, 40, "Local")
 figure = generate_histogram(cloud_percentages, 40, "Cloud")
